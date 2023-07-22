@@ -16,7 +16,7 @@ function Multigame() {
   
   return (
     <div className="container">
-      <div className="card border border-dark mt-5 p-4">
+      <div className="card border border-light mt-5 p-4">
         <h1 className="text-center">Join Typeracer Lobby</h1>
         {gameStarted ? (
           <div className="text-center mt-3">Game Started!</div>
@@ -50,7 +50,7 @@ function Multigame() {
             <button
               onClick={handleJoinLobby}
               disabled={!difficulty}
-              className="btn btn-primary mr-3"
+              className="btn btn-primary me-3"
             >
               Join Lobby
             </button>

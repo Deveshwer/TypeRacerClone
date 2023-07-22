@@ -14,15 +14,15 @@ const GameMenu = (props) => {
         width: "100%",
       }}
     >
-      <nav className="navbar navbar-expand-lg mx-3">
+      <nav className="navbar navbar-expand-lg bg-body-tertiary">
         <div className="container-fluid">
-          <h1 className="navbar-brand">
+          <h1 className="navbar-brand ">
             <img
               src="https://png.pngtree.com/png-vector/20191011/ourmid/pngtree-keyboard-icon-png-image_1818176.jpg"
               alt="Logo"
               width="38"
               height="30"
-              className="d-inline-block align-text-top mr-2"
+              className="d-inline-block align-text-top me-2"
             />
             Type Racer
           </h1>
@@ -38,7 +38,7 @@ const GameMenu = (props) => {
           <button
             type="button"
             onClick={() => history.push("/game/create")}
-            className="btn btn-secondary btn-lg mr-5 mt-5"
+            className="btn btn-secondary btn-lg me-5 mt-5"
             style={{ cursor: "pointer" }}
           >
             Create a new game
@@ -46,7 +46,7 @@ const GameMenu = (props) => {
           <button
             type="button"
             onClick={() => history.push("/game/join")}
-            className="btn btn-dark btn-lg mt-5"
+            className="btn btn-info btn-lg mt-5"
           >
             Join using code
           </button>
@@ -54,7 +54,7 @@ const GameMenu = (props) => {
           <button
             type="button"
             onClick={() => history.push("/game/multi")}
-            className="btn btn-dark btn-lg mt-5 mr-5"
+            className="btn btn-info btn-lg mt-5 me-5"
             style={{ cursor: "pointer" }}
           >
             Join using difficulty

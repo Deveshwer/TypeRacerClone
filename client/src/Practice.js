@@ -14,7 +14,7 @@ function Practice() {
       <div className="form-group">
         <label htmlFor="difficultySelect">Select Difficulty:</label>
         <select
-          className="form-control"
+          className="form-control mt-2"
           id="difficultySelect"
           value={difficulty}
           onChange={(e) => setDifficulty(e.target.value)}
@@ -27,7 +27,7 @@ function Practice() {
         </select>
       </div>
       <button 
-        className="btn btn-primary" 
+        className="btn btn-primary mt-4" 
         onClick={beginRound} 
         disabled={!difficulty}
       >

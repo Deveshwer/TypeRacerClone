@@ -32,13 +32,14 @@ const TypeRacer = ({ gameState }) => {
       <br />
       <br />
       <br />
-      / <h3>{player.nickName}</h3> 
+      <h3>{player.nickName}</h3> 
       <ProgressBar
         players={players}
         player={player}
         wordsLength={words.length}
       />
-      <p>{player.nickName}'s Words Per Minute:  {player.WPM === -1 ? 0 : player.WPM}</p>
+      <p style={{fontSize:"20px"}}>{player.nickName}'s Words Per Minute:  {player.WPM === -1 ? 0 : player.WPM}</p>
+      <p>Please type each word correctly to move on to the next word.</p>
       <br />
       <Form isOpen={isOpen} isOver={isOver} gameID={_id} />
       <CountDown />

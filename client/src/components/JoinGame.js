@@ -35,7 +35,7 @@ useEffect(() => {
     <div className="row">
       <div className="col-sm"></div>
       <div className="col-sm-8">
-        <div className="card border border-dark mt-5">
+        <div className="card border border-light mt-5">
           <div className="card-body">
             <h1 className="text-center">JOIN GAME</h1>
             <br />
@@ -75,7 +75,7 @@ useEffect(() => {
                 onClick={() => {
                   history.push("/");
                 }}
-                className="btn btn-secondary ml-2"
+                className="btn btn-secondary ms-2"
               >
                 Leave Lobby
               </button>

@@ -1,8 +1,9 @@
 import React from "react";
 
 const typedCorrentlyStyle = {
-  backgroundColor: "#90EE90",
+  backgroundColor: "#00FF00",
   fontSize:"20px",
+  color: "black",
 };
 
 const getTypedWords = (words, player) => {

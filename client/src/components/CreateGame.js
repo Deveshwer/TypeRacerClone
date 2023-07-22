@@ -17,7 +17,7 @@ const CreateGame = (props) => {
 
   return (
     <div className="container my-5"> {/* Add spacing to the card */}
-      <div className="card border border-dark d-flex justify-content-center"> {/* Remove p-3 class */}
+      <div className="card border border-light d-flex justify-content-center"> {/* Remove p-3 class */}
         <h1 className="card-header text-center">Create Game</h1> {/* Use card-header class */}
         <div className="card-body">
           <form onSubmit={onSubmit}>
@@ -31,7 +31,8 @@ const CreateGame = (props) => {
                 placeholder="Enter Nick Name"
                 className="form-control"
                 style={{ maxWidth: '350px' }}
-                required 
+                required
+                autoComplete="off" 
               />
               <br />
               <div className="form-group">
